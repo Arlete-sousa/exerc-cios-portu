@@ -1,0 +1,23 @@
+programa
+{  //16 - Reescreva o código abaixo como um programa do Portugol
+	real n1, n2, media
+	funcao inicio()
+	{
+		escreva("Digite sua 1º nota: ")
+		leia(n1)
+		escreva("Digite sua 2º nota: ")
+		leia(n2)
+          media=7.0
+		se(media == n1+n2/2){
+		se(media>=7)
+		escreva("Sua média é: ")
+		leia(media)
+		}
+
+		senao{
+			escreva("Reprovado, sua média é,", media/n1+n2," . ")
+			leia(media)
+		}
+		
+	}
+}
