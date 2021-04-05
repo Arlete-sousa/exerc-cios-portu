@@ -1,0 +1,17 @@
+programa
+{//8. Faça um programa que exiba os números de 1 (inclusive) a 10 (inclusive) em ordem decrescente.
+	inteiro x, y
+
+	
+	funcao inicio()
+	{
+		x=-1
+		y=-10
+
+      enquanto  (x >= y){
+          escreva (x, "\n")
+          x = x-1
+      }
+
+	}
+}
