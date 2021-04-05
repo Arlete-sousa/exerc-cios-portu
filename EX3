@@ -1,0 +1,51 @@
+programa
+{   //Faça um programa para ler 3 valores e escrever o maior deles.
+	
+	inteiro a, b, c, maior, menor
+	
+	funcao inicio()
+	{
+		escreva("Digite o valor a: ")
+		leia(a)
+		escreva("Digite o valor b: ")
+		leia(b)
+		escreva("Digite o valor c: ")
+		leia(c)
+		
+		
+    se(a>=b) se(b>=c){
+    escreva(" maior: a ")
+     }
+      senao{	
+     }
+     
+    se(a>=c) se(c>=b){
+     escreva(" maior: a ")
+     }
+      senao{
+     }
+
+    se(b>=a) se(a>=c){
+    escreva(" maior: b ")
+    }
+      senao{
+    }
+    
+    se(b>=c) se(c>=a){
+    	escreva(" maior: b ")
+    }
+
+      senao{
+    }
+    
+     se(c>=a) se(a>=b){
+      escreva(" maior: c ")
+     }
+     
+     senao{
+       escreva(" maior c ")
+     }
+
+		
+	}
+}
