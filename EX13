@@ -1,0 +1,21 @@
+programa
+{//13. Faça um programa que leia 10 números que o usuário vai informar. Todos os números lidos com valor inferior a 40 devem ser somados. Escreva o valor final da soma efetuada.
+	
+	funcao inicio()
+	{ 
+	real soma, x=0.0 
+		para(inteiro i= 1; i<=10; i =i +1)
+		escreva("Informe o ", i, "º número :	")
+		leia(x)
+		limpa()
+		soma =+
+		
+		se(x >=40){
+			soma+=x
+		}
+	     se(soma==0){
+	     	soma+1.0
+	     }
+	     
+	}
+}
