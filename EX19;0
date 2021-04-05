@@ -1,0 +1,25 @@
+programa
+{
+	
+inteiro a, b, troca
+	
+	funcao inicio()
+	{
+		escreva("Digite o valor númerico de A:  ")
+		leia(a)
+		escreva("Digite o valor númerico de B:  ")
+		leia(b)
+		troca=a
+		a=b
+		b=troca
+		
+		se(troca<=a) se(a>=b){
+	     escreva("O novo valor de A é:", a)
+		escreva("O novo valor de b é:", b)
+		}
+		
+		
+
+		
+	}
+}
