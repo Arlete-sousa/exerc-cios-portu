@@ -1,0 +1,17 @@
+programa
+{
+	real imc, peso, altura
+	
+	funcao inicio()
+	{
+		escreva("Digite o seu peso: ")
+		leia(peso)
+		escreva("Digite a sua altura: ")
+		leia(altura)
+		imc= (peso) / (altura * altura)
+	     se(imc==altura*altura/peso){
+		escreva("O ",imc, "é: ")
+	}
+		
+	}    
+}
