@@ -1,0 +1,31 @@
+programa
+{//12. Faça um programa que leia 10 números informados pelo usuário e ao final da leitura escrever a soma total dos 10 números lidos.
+	
+		funcao inicio()
+	{ inteiro n1,n2,n3,n4,n5,n6,n7,n8,n9,n10
+	
+escreva ("O número 1: ")
+escreva 
+leia(n1 )
+escreva ("O número 2: " )
+leia(n2)           			
+escreva ("O número 3 "" ")
+leia(n3)
+escreva ("O número 4 "" ")
+leia(n4)
+escreva ("O número 5: "" ")
+leia(n5)
+escreva ("O número 6: " )
+leia(n6)
+escreva ("O número 7: "" ")
+leia(n7)
+escreva ("O número 8: "" ")
+leia(n8)
+escreva ("O número 9:"" ")
+leia(n9)
+escreva ("O número 10: " )
+leia(n10)
+
+ soma = (n1+n2+n3+n4+n5+n6+n7+n8+n9+n10)/10
+	}
+}
