@@ -1,0 +1,23 @@
+programa
+{
+real p1
+real p2
+real p3
+real p4
+real media
+	funcao inicio()
+	{
+		escreva("digite prova 1: 		")
+		leia(p1)
+		escreva("digite prova 2 :       "	)
+		leia(p2)
+		escreva("digite prova 3:     "	)
+	     leia(p3)	
+		escreva("digite prova 4:     "	)
+		leia(p4)
+
+		media =(p1+p2+p3+p4)/4
+		escreva("sua média é :    "  )
+		
+	}
+}
